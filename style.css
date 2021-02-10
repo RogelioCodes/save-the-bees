@@ -1,0 +1,41 @@
+@font-face {
+	font-family: "Linux Libertine";
+	src: url("fonts/LinLibertine_RZ.woff") format('woff');
+}
+html {
+  font-family: "Times New Roman", Times, italic;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+
+body {
+	font-family:"Linux Libertine";
+  margin: 0;
+  background-color: pink
+}
+
+h1 {
+ 
+  font-size: 2em;
+	margin: 0.67em 0;
+  
+}
+a {
+	background-color: transparent;
+}
+a:active,a:hover {
+	outline: 0;
+}
+
+.resize {
+  width: 50%;
+  height: auto;
+}
+div{
+  align-items: center;
+  padding: 20;
+}
+p{
+  padding-left: 20;
+}
